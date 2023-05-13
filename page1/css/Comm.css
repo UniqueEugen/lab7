@@ -1,0 +1,82 @@
+@charset "windows-1251";
+
+#wait{
+    position:fixed;
+    display:none;
+    background-color:wheat;
+    width:100vw;
+    height:100vh;
+}
+
+#id {
+    
+    width: 200px;
+    border: 2px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+    #id li {
+        text-align: left;
+        color: wheat;
+        font-size: 13px;
+        text-shadow: 2px 2px 2em black, 0 0 3em black;
+    }
+    #id::-webkit-scrollbar{
+        width:0px;
+    }
+
+.good{
+    width:95%;
+    border: 3px solid black;
+    border-radius:10px;
+    height: 20vh;
+    background-color: rgba(0,0,0,0.5);
+    margin:15px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+    .good::-webkit-scrollbar{
+        width:0px;
+    }
+.good img{
+    height: 100px;
+    width: auto;
+    margin:10px;
+}
+.good p{
+    font-size:14px;
+}
+
+#err {
+    animation: switch 15s linear alternate infinite;
+    font-size:25px;
+    
+}
+
+@keyframes switch {
+    0% {
+        color: aqua;
+        text-shadow: 0em 0em 1em black, 0em 0em 1em red;
+    }
+
+    25% {
+        color: grey;
+        text-shadow: 0em 0em 1em wheat, 0em 1em 1em darkred;
+    }
+
+    50% {
+        color: wheat;
+        text-shadow: 0em 0em 1em black, 0em 0em 1em red;
+    }
+
+    75% {
+        color: darkblue;
+        text-shadow: 0em 0em 1em wheat, 0em 1em 1em darkred;
+    }
+
+    100% {
+        color: lawngreen;
+        text-shadow: 0em 0em 1em blue, 0em 0em 1em red;
+    }
+}

@@ -1,0 +1,340 @@
+@charset "windows-1251";
+body {
+    background-image: url(../resourses/raiden.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+    position: page;
+    min-width:1024px;
+    text-align:center;
+}
+
+a:visited{color:antiquewhite}
+button {
+    position: relative;
+    border-radius: 9px;
+    background: url(../resourses/tighnari.jpg) 0px rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    top: 30px;
+    font-size: 18px;
+    height: 70px;
+    background-size: 185px;
+    text-align: center;
+    margin-bottom: 10px;
+    z-index: 999;
+    margin-left: 30px;
+}
+@keyframes tapMe {
+    0% {
+        margin-left: 2px;
+    }
+
+    2% {
+        margin-left: 22px;
+    }
+
+    4% {
+        margin-left: 2px;
+    }
+
+    6% {
+        margin-left: 22px;
+    }
+
+    8% {
+        margin-left: 11px;
+    }
+
+    100% {
+        margin-left: 11px;
+    }
+}
+footer {
+    width: 100%;
+    height: 250px;
+    max-height:250px;
+    position: relative;
+    bottom: 0;
+    margin-top:50px;
+    background-color: none;
+    z-index: 99;
+    color: indigo;
+    text-shadow: 0px 0px 1px black, 0px 0px 2px white;
+    text-align: center;
+    border: 5px solid black;
+    border-radius:30px 30px 0px 0px;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.konez {
+    white-space: pre;
+    white-space: pre;
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+    width: 350px;
+    padding:5px;
+}
+.konez2 {
+    color: #C0C0C0;
+
+}
+    .konez2:visited {
+        color: #A9A9A9;
+    }
+.Polny_Konez
+{
+    margin-bottom:10px;
+    vertical-align:bottom;
+    clear:left;
+    position:absolute;
+    bottom:0px;
+    margin-left:30%;
+}
+.konez3 {
+    color: indigo;
+    white-space: pre;
+    text-align: left;
+    float: left;
+    padding: 15px;
+    text-shadow: 1px, 1px, 1px grey, 0px 0px 2px black;
+}
+.konez4 {
+    color: #696969;
+}
+.konez4:visited 
+{
+    color: #A9A9A9;
+}
+marquee {
+    color: #FF8C00;
+}
+q {
+    quotes: "\0022" "\0027";
+}
+.knop_ssbl {
+    color: lawngreen;
+    padding:5px;
+
+}
+.front1{ 
+    background-origin: content-box;
+    column-count: 3;
+    column-rule: 3px solid rgb(255,0,0);
+    font-weight:700;
+    position:relative;
+}
+.content{
+    width:100%;
+}
+.back1 {
+
+    background: url(../resourses/3re.png) rgb(0,0,0);
+    opacity: 0.4;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.plan {
+    color: #32CD32;
+    position: relative;
+    text-align:center;
+}
+    .plan::before {
+        content: '';
+        background: rgba(45,78,45,0.3);
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        height: 100%;
+        top: 0px;
+        margin-top: 0px;
+        z-index: -2;
+    }
+
+@font-face {
+    font-family: "Mine";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../resourses/font2.otf) format("opentype");
+}
+
+.blockZad {
+    position: relative;
+    width: 90%;
+    background: radial-gradient(at bottom, rgba(0,0,0,0.5),#8e27ef 70%);
+    border: solid 6px blue;
+    min-width: auto;
+    outline: solid 2px rgb(188, 238, 166);
+    border-radius: 0px 10px 10px 10px;  
+    z-index: 1;
+    box-shadow: 3px 5px 20px white;
+    display: block;
+    margin:auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-family: 'Mine', sans-serif;
+}
+    .blockZad::before {
+        position: absolute;
+        width: 294px;
+        height: 104px;
+        content: "";
+        background: #8e27ef;
+        top: -94px;
+        left: -5px;
+        border-left: solid 6px blue;
+        z-index: 4;
+    }
+
+    .blockZad figure {
+        margin: 10px;
+        border-radius: 15px;
+        float: left;
+        text-align: center;
+        margin-bottom: 5px;
+        color: #4076a0;
+    }
+.blockZad figure img{
+    height:40%;
+    max-height: 250px;
+    min-height:100px;
+}
+
+.zaklad {
+    position: absolute;
+    width: 298px;
+    height: 95px;
+    content: "";
+    background: #8e27ef;
+    top: -108px;
+    left: -5px;
+    outline: solid 2px rgb(188, 238, 166);
+    box-shadow: 0px -5px 15px white;
+    border: solid 6px blue;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-style: none;
+    z-index: 1;
+}
+.zaklad2 {
+    position: absolute;
+    width: 9px;
+    height: 95px;
+    content: "";
+    background: #8e27ef;
+    top: -95px;
+    left: 289px;
+    border-right: solid 6px blue;
+    z-index: 3;
+}
+.text-zaklad {
+    position: absolute;
+    width: 298px;
+    top: -70px;
+    z-index: 10;
+    font-size: 40px;
+    color: wheat;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+.blockZad .history {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: justify;
+    padding: 15px;
+    color: gray;
+    text-shadow: 0px 1px 3px black, 0px 0px 10px black;
+    filter: brightness(110%);
+}
+
+svg{
+    position:absolute;
+    z-index:2;
+    float:left;
+    left:0px;
+    top:-100px;
+}
+
+.borderCircle {
+    outline: solid 30px black;
+    border-bottom: solid 3px black;
+    border-radius: 0px 0px 20px 20px;
+}
+.foto{
+    border: solid 4px slateblue;
+    border-radius:15px;
+    position:relative;
+    height: 250px;
+    width: 90%;
+    margin-bottom:50px;
+    padding:5px;
+    margin:auto;
+}
+.foto:first-child{
+    margin-left: 5px;
+}
+.foto:last-child{
+    margin-right:5px;
+}
+.foto img{
+    margin:8px;
+}
+.Begin{
+    padding:10px;
+    color: blanchedalmond;
+    text-shadow: 0px 1px 2px black;
+}
+.main-menu ul {
+    margin: 0;
+    margin-left: 130px;
+    margin-top:10px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.main-menu a {
+    color: white;
+}
+
+.blockZad article:not(:nth-child(3))::first-letter, .blockZad section:first-letter, .history p::first-letter {
+    color: #FFE4C4;
+    font-size: 30px;
+}
+.blockZad article::after, .blockZad section:first-child::after, .history p::after {
+    position:absolute;
+    content: "";
+    background: url(../resourses/Raiden-logo.png) no-repeat;
+    background-size: 100%;
+    width:1em;
+    height:1.2em;
+}
+.history p{
+    text-indent:20px;
+}
+footer div{
+    position:absolute;
+    z-index:2;
+}
+footer img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left:0px;
+    top:-150px;
+}
+
+.main-menu ul li:not(:last-child) {
+    border-right: solid 2px thistle;
+    padding-right:15px;
+}
